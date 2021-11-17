@@ -1,3 +1,10 @@
+import PortfolioImage from './public/Portafolio.png'
+import MovieImage from './public/Movie.jpg'
+import AmazonImage from './public/Amazon.jpg'
+import GoogleImage from './public/Google.jpg'
+import SpymovilImage from './public/Spymovil.jpg'
+import TwitterImage from './public/Twitter.jpg'
+
 export const skills = [
     { skill: 'JavaScript', percentage: 80 },
     { skill: 'TypeScript', percentage: 80 },
@@ -32,37 +39,37 @@ export const projects = [
     {
         name: 'Portfolio',
         description: 'React, TypeScript, Next',
-        image: 'Portafolio.png',
+        image: PortfolioImage,
         git: 'https://github.com/marcoss94/portafolio_next',
     },
     {
         name: 'Movie App',
         description: 'React, TypeScript, Next, Mongo DB',
-        image: 'Movie.jpg',
+        image: MovieImage,
         git: 'https://github.com/marcoss94/movie-next',
     },
     {
         name: 'Amazon Clone',
         description: 'React, JavaScript, Firebase',
-        image: 'Amazon.jpg',
+        image: AmazonImage,
         git: 'https://github.com/marcoss94/AmazonClone',
     },
     {
         name: 'Google Cluster Marker',
         description: 'React, JavaScript, Google Maps, Redux',
-        image: 'Google.jpg',
+        image: GoogleImage,
         git: 'https://github.com/marcoss94/GoogleMaps-ClusterMarker-React-',
     },
     {
         name: 'SpyMovil',
         description: 'React, API REST',
-        image: 'Spymovil.jpg',
+        image: SpymovilImage,
         git: 'https://github.com/marcoss94/spymovilapi',
     },
     {
         name: 'Twitter Clone',
         description: 'React, JavaScript, Next, Firebase',
-        image: 'Twitter.jpg',
+        image: TwitterImage,
         git: 'https://github.com/marcoss94/ProyectoNextReact',
     },
 ]

@@ -1,5 +1,7 @@
 import { Layout } from '../components/Layout'
+import Image from 'next/image'
 import { skills, experiences, projects } from '../profile'
+import ProfileImage from '../public/profile.jpg'
 
 const Index = () => {
     return (
@@ -10,10 +12,11 @@ const Index = () => {
                     <div className='card card-body bg-secondary text-light'>
                         <div className='row'>
                             <div className='col-md-4'>
-                                <img
-                                    src='profile.jpg'
+                                <Image
+                                    src={ProfileImage}
                                     className='img-fluid w-100'
-                                    alt=''
+                                    placeholder='blur'
+                                    alt='profile image'
                                 />
                             </div>
                             <div className='col-md-8'>
@@ -120,9 +123,10 @@ const Index = () => {
                                                     <a
                                                         target={'_blank'}
                                                         href={git}>
-                                                        <img
-                                                            src={`${image}`}
+                                                        <Image
+                                                            src={image}
                                                             alt=''
+                                                            placeholder='blur'
                                                             className='img-fluid card-img-top'
                                                         />
                                                     </a>

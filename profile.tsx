@@ -62,7 +62,7 @@ export const projects = [
     {
         name: 'Twitter Clone',
         description: 'React, JavaScript, Next, Firebase',
-        image: 'twitter.jpg',
+        image: 'Twitter.jpg',
         git: 'https://github.com/marcoss94/ProyectoNextReact',
     },
 ]

@@ -42,7 +42,7 @@ const Index = () => {
             </header>
             {/* Second section */}
             <section className='row py-2'>
-                <div className='col-md-4'>
+                <div className='col-md-4 my-2'>
                     <div className='card bg-light h-100'>
                         <div className='card-body'>
                             <h1>Skill</h1>
@@ -62,7 +62,7 @@ const Index = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-md-8'>
+                <div className='col-md-8 my-2'>
                     <div className='card bg-light'>
                         <div className='card-body'>
                             <h1>Education</h1>
